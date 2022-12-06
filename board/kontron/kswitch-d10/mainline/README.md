@@ -4,7 +4,7 @@
 
 ```
 git clone git://git.busybox.net/buildroot -b 2022.08
-git clone https://github.com/hthiery/buildroot-external-examples.git
+git clone https://github.com/kontron/buildroot-external-examples.git
 mkdir out
 cd out
 make -C ../buildroot BR2_EXTERNAL=../buildroot-external-examples O=`pwd` kontron_kswitch_d10_mainline_defconfig
